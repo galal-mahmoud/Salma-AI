@@ -1,0 +1,15 @@
+flask-cors
+Flask[async]
+pymupdf
+google-generativeai
+langchain
+faiss-cpu
+langchain-google-genai
+gunicorn
+Pillow
+# torch
+typing-extensions
+# transformers
+numpy==1.24.3
+opencv-python==4.8.1.78
+dotenv
