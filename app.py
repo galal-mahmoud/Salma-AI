@@ -4,7 +4,7 @@ import json
 import os
 import fitz
 from io import BytesIO
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from flask_cors import CORS
 import google.generativeai as genai
