@@ -8,9 +8,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN python -c "from transformers import TrOCRProcessor; TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten', cache_dir='/models')"
+# RUN python -c "from transformers import TrOCRProcessor; TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten', cache_dir='/models')"
 
-RUN python -c "from transformers import VisionEncoderDecoderModel; VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-large-handwritten', cache_dir='/models')"
+# RUN python -c "from transformers import VisionEncoderDecoderModel; VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-large-handwritten', cache_dir='/models')"
 
 EXPOSE 8080
 

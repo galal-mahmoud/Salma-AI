@@ -1,5 +1,23 @@
-flask-cors
+# flask-cors
+# Flask[async]
+# pymupdf
+# google-generativeai
+# langchain
+# faiss-cpu
+# langchain-google-genai
+# gunicorn
+# Pillow
+# torch
+# typing-extensions
+# transformers
+# numpy==1.24.3
+# opencv-python-headless
+# dotenv
+# sentencepiece
+# protobuf>=4.25.3,<6.28.0
+
 Flask[async]
+flask-cors
 pymupdf
 google-generativeai
 langchain
@@ -7,12 +25,7 @@ faiss-cpu
 langchain-google-genai
 gunicorn
 Pillow
-torch
 typing-extensions
-transformers
 numpy==1.24.3
 opencv-python-headless
-dotenv
-sentencepiece
-protobuf==6.28.0
-protobuf3-to-dict
+python-dotenv
