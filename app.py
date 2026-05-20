@@ -5,7 +5,7 @@ import os
 import fitz
 from io import BytesIO
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.schema import Document
+from langchain_core.documents import Document
 from flask_cors import CORS
 import google.generativeai as genai
 import numpy as np
